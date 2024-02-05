@@ -1,0 +1,68 @@
+body{
+    background-image: url(imagenes/fondo-montañita.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    user-select: none;
+}
+
+.bcspn{
+    z-index: 0;
+    background-image: url(imagenes/piedra-fundo.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+#mi-contenedor {
+    z-index: 1;
+    background-image: url(imagenes/Foto\ seleccionada.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 480px;
+    height: 480px;
+    display: grid;
+    padding: 3%;
+    grid-template-columns: repeat(10, 1fr); /* 10 columnas */
+    grid-gap: 2px; /* Espacio entre los divs */
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    
+    
+}
+
+.mi-div {
+    background-image: url(imagenes/piedra-fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 40px;
+    height: 40px;
+    background-color: #ccc;
+    border: 1px solid #999;
+    cursor: pointer;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.vidas{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 10%;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
